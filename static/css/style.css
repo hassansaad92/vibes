@@ -1,0 +1,3 @@
+/* Minimal global overrides — Tailwind CDN handles most styling */
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }

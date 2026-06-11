@@ -1,0 +1,10 @@
+numpy
+pandas
+scipy
+scikit-learn
+fastapi
+uvicorn[standard]
+jinja2
+psycopg2-binary
+python-dotenv
+python-multipart
