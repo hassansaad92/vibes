@@ -81,7 +81,7 @@ python3 -m venv .venv
 Create a `.env` file:
 
 ```
-SUPABASE_URL=postgresql://user:password@host:5432/dbname
+SUPABASE_URL=postgresql://postgres.[project-ref]:[password]@aws-0-[region].pooler.supabase.com:6543/postgres
 ```
 
 Run the database schema once:
@@ -288,7 +288,7 @@ python3 -m venv .venv
 Create a `.env` (see `.env.example`):
 
 ```
-VIBES_API_URL=http://localhost:8000
+VIBES_API_URL=https://vibes-lemon.vercel.app
 ```
 
 ```bash
